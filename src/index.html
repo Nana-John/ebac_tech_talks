@@ -8,14 +8,64 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Combo&family=Dancing+Script:wght@400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif+Oriya:wght@400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto&family=WindSong:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 <body>
     <header class="hero">
         <div class="container">
             <img class="hero__logo" src="./images/logo_niver2.png" alt="Aniversario">
             <p class="hero__text">
-                Com leveza e harmonia, convidamos você a celebrar o aniversário da Alê no Rio.           </p>
+                Com leveza e harmonia, convidamos você a celebrar o aniversário da Alê no Rio. <p style="font-family: Helvetica, sans-serif; font-size: 24px; font-weight: 800; margin-bottom: 24px; text-align: center; color: #d4af37;">10d 12h 20m 15s</p>           
+            </p>
+        <div class="infos-bar">
+            <ul class="infos-bar__infos">
+                <li class="infos-bar__infos__item">
+                    <b>Local</b>
+                    Restaurante do samba - Gávea/RJ
+                </li>
+                <li class="infos-bar__infos__item">
+                    <b>Data</b>
+                    Quinta, 17 de abril de 2025, a partir das 15h.
+                </li>
+                <li class="infos-bar__infos__item">
+                    <b>RSVP</b>
+                    Até o dia, 17/05/2025.
+                </li>
+            </ul>
+            <a href="" class="button button--primary">Confirme</a>
         </div>
+            </div>
     </header>
+<section class="event event--local">
+    <div class="container" data-aos="fade-right">
+        <div class="event__details">
+            <h2 class="event__details__title">Local</h2>
+            <p class="event__details__description">Estamos ansiosos para comemorar este dia tão especial no Restaurante do samba, um lugar acolhedor e cheio de charme. Localizado na Gávea, nosso restaurante é conhecido por sua atmosfera encantadora, pratos deliciosos e atendimento impecável.</p>
+        </div>
+        <img class="event__image" src="images/restaurante.jpeg" alt="restaurante">
+    </div>
+</section>
+<section class="event event--aniversario event--image-left" >
+    <div class="container" data-aos="fade-left">
+        <div class="event__details">
+            <h2 class="event__details__title">Aniversário</h2>
+            <p style="color: #4b4b4b;" class="event__details__description">Venha celebrar uma noite inesquecível no aniversário da Alê! Com a cidade como cenário, a festa combina elegância, alegria e uma vibe tropical encantadora. O espaço estará decorado com cores vibrantes e toques sofisticados, refletindo o espírito caloroso e acolhedor da Alê. Prepare-se para boa música, deliciosas comidas e um clima perfeito para criar memórias especiais. Traga sua energia e venha viver uma experiência única em uma festa cheia de charme e descontração!</p>
+        </div>
+        <img class="event__image" src="images/hero_desktop.jpeg" alt="aniversario">
+    </div>
+</section>
+<section class="event event--atracoes">
+    <div class="container" data-aos="fade-right">
+        <div class="event__details">
+            <h2 class="event__details__title">Show ao Vivo de Samba</h2>
+            <p class="event__details__description">Prepare-se para ser embalado pelo ritmo contagiante do samba em um show ao vivo que promete trazer toda a alegria e a essência da música brasileira. Com um repertório que vai de clássicos imortais até sucessos modernos, os músicos farão de cada momento uma celebração da nossa cultura. Sinta o som dos pandeiros, cavaquinhos e tamborins enquanto dança, canta e se deixa levar pela energia vibrante que só o samba pode oferecer. É uma experiência imperdível que vai transformar a festa em um verdadeiro espetáculo de emoções e pura diversão!</p>
+        </div>
+        <img class="event__image" src="images/show.jpeg" alt="show">
+    </div>
+</section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
 </body>
 </html>

@@ -1,0 +1,44 @@
+.infos-bar {
+    padding: 16px 24px;
+    background-color: #D4AF37;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+
+    &__infos {
+        display: flex;
+        gap: 40px;
+
+        &__item {
+            font-size: 14px;
+            color: #1f1f1f;
+
+            b {
+                color: #4B4B4B;
+                font-size: 18px;
+                display: block;
+            }
+        }
+    }
+
+    @media (max-width: 1020px) {
+        &__infos {
+            gap: 16px;
+        }
+    }
+
+    @media (max-width: 640px) {
+        display: block;
+        
+
+        &__infos {
+            display: block;
+        
+            
+            &__item {
+                margin-bottom: 24px;
+
+        }
+    }
+}
+}

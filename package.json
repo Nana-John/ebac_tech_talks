@@ -14,5 +14,8 @@
     "@parcel/transformer-sass": "^2.13.0",
     "parcel": "^2.13.0",
     "sharp": "^0.33.5"
+  },
+  "dependencies": {
+    "aos": "^2.3.4"
   }
 }

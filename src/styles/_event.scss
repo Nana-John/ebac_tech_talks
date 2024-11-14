@@ -1,0 +1,74 @@
+.event {
+    padding: 80px 0;
+
+    &--local{
+        background-color:#4B4B4B ;
+        
+
+    }
+
+    &--aniversario{
+        background-color:#f5f5f5 ;
+ 
+    }
+    
+    &--atracoes{
+        background-color:#4B4B4B ;
+
+    }
+    
+    &--abraco{
+        background-color:#f5f5f5;
+        &__image{
+            width: 1020px;
+            height: auto;
+        }
+    }
+
+    &--image-left {
+        .container {
+        flex-direction: row-reverse;    
+        
+}
+
+    }
+
+    .container {
+        display: flex;
+        gap: 40px;
+    }
+    &__image{
+        max-width: 420px;
+        height: auto;
+        border-radius: 8px;
+        
+    }
+    &__details{
+        &__title{
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 16px;
+            color: #D4AF37;
+        }
+        &__description{
+            line-height: 22px;
+            color: #f5f5f5;
+
+        }
+
+    }
+    @media (max-width: 640px) {
+        .container {
+            display: block;
+        }
+
+        &__image {
+            width: 100%; 
+        }
+
+        &__details {
+            margin-right: 0;
+            margin-bottom: 16px;
+        }
+    }
+}
